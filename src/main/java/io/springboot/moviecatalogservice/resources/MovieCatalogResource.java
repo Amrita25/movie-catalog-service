@@ -50,7 +50,7 @@ public class MovieCatalogResource {
 	
 	@RequestMapping("/{userId}")
 	public List<CatalogItem> getCatalog(@PathVariable("userId") String userID){
-		//get all rated movie ids
+		//get all rated movie ids ......
 		
 		System.out.println("inside");		
 		UserRating ratings = userRatingInfo.getUserRating(userID);
